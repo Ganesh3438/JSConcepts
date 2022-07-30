@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "firstName": "Mohan",
+      "lastName": "Kumar",
+      "email": "mohan@gmail.com",
+      "comments": "Automation Framework"
+    },
+    {
+      "firstName": "Siva",
+      "lastName": "Kumar",
+      "email": "siva@gmail.com",
+      "comments": "Automation Framework"
+    }
+  ]
+}
