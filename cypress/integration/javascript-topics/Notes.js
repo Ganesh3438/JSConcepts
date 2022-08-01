@@ -97,6 +97,48 @@
 
 // Note: Any data type which is not primitive will be Object.
 
+// ---> Example for functions
+// function add(){
+//     console.log('Result is 20');
+
+// }
+
+// add()  // Result is 20
+
+// console.log(add()); // Result is 20 undefined
+
+// // Note: If your function is returning something then we can write in console.log(), If not it will return undefined
+
+// // console.log(typeof add())
+
+// ---> Example 2:
+// function add(a, b, c){
+
+//     let result = a+b+c;
+//     return result;
+
+// }
+
+// // Calling the function add 
+// // In the below piece of code we are calling the function without passing the parameter. What will be the output for below piece of line?
+// console.log(add());  // The output will be NaN
+// console.log(add(10,20,30)); // The output will be 60
+
+
+// Example 3: 
+
+// // How to give default values when you dont pass any value under function
+
+// function add(a=0, b=0, c=0){
+
+// let result = a+b+c;
+// return result;
+
+// }
+
+// // Calling the function without passing values
+// console.log(add()); // The output will be 0 (0+0+0 =  0)
+// console.log(add(10, 20)); // The output will be 30 (10+20+0)
 
 
 
